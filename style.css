@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    background-color: #49CF52;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    padding: 10px;
+    width: 20%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    margin-right: 450px;
+}
+
+.nava {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    
+}
+
+.search {
+    background-color: #49CF52;
+    padding: 30px;
+
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    text-align: right;
+    font-size: 16px;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+
+.searchinput {
+    width: 220px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    
+    
+}
+
+.imgsearch {
+    padding: 10px;
+}
+
+.banner {
+    background-image: url(ФОТО/Фон.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding-top: 140px;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 45px;
+    padding-top: 20px;
+    color: #2F382E;
+    
+}
+
+
+.button {
+    margin-top: 150px;
+}
+
+
+footer {
+    background-color: #11570E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logofooter {
+    background-color: #11570E;
+    display: flex;
+    align-items: center;
+}
+
+.logoimgfooter {
+    background-color: #11570E;
+    padding: 10px;
+    width: 20%;
+    height: auto;
+}
+
+h5 {
+    color: #C8D8C6;
+}
